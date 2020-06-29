@@ -8,15 +8,6 @@ This code for this theme is based on the [Hyper Night Owl theme](https://github.
 
 <hr />
 
-## INTRODUCTION
-
-[![version][version-badge]][package]
-[![downloads][downloads-badge]][npmtrends]
-[![MIT License][license-badge]][license]
-
-[![PRs Welcome][prs-badge]][prs]
-[![Code of Conduct][coc-badge]][coc]
-
 ## 🛠 Install
 
 Installing the Hyper Minimal theme for your Hyper terminal couldn't be easier.
