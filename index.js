@@ -1,8 +1,8 @@
 const overlap = "rgba(0, 0, 0, .15)";
 
-exports.decorateConfig = config =>
+exports.decorateConfig = (config) =>
   Object.assign({}, config, {
-    backgroundColor: "#011627",
+    backgroundColor: "#000e1b",
     foregroundColor: "#d6deeb",
     borderColor: "rgba(126, 87, 194, 0.3)",
     cursorColor: "#7e57c2",
@@ -24,7 +24,7 @@ exports.decorateConfig = config =>
       lightBlue: "#82aaff",
       lightMagenta: "#c792ea",
       lightCyan: "#7fdbca",
-      lightWhite: "#ffffff"
+      lightWhite: "#ffffff",
     },
     css: `
     ${config.css}
@@ -104,5 +104,5 @@ exports.decorateConfig = config =>
       opacity: 1.0 !important;
       box-shadow: 0 1px 10px rgba(0, 0, 0, 1.0);
     }
-  `
+  `,
   });
